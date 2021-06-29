@@ -5,6 +5,7 @@ package com.zipcodewilmington;
  */
 public class PersonHandler {
     private final Person[] personArray;
+    String currentPerson = "";
 
     public PersonHandler(Person[] personArray) {
         this.personArray = personArray;
@@ -12,6 +13,14 @@ public class PersonHandler {
 
     public String whileLoop() {
         String result = "";
+        int counter =0;
+        String currentPerson= "";
+
+        while (counter < personArray.length){
+            counter = currentPerson.length();
+            counter++;
+        } result = currentPerson;
+
         // create a `counter`
         // while `counter` is less than length of array
             // begin loop
@@ -28,6 +37,11 @@ public class PersonHandler {
 
     public String forLoop() {
         String result = "";
+        int counter = 0;
+        String currentPerson = "";
+        for(int i; i<= counter.length(); i++) {
+            currentPerson=result;
+        }
         // identify initial value
         // identify terminal condition
         // identify increment
